@@ -1,0 +1,24 @@
+{
+  "name": "trillian",
+  "version": "0.9.8",
+  "description": "Trillian Client",
+  "main": "index.js",
+  "author": "Brian Shensky <bshensky@struction.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://trillian.im/web/4.0/",
+    "serviceName": "Trillian",
+    "message": "Trillian Web Client",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": false,
+    "customURL": false,
+    "hostedOnly": false,
+    "webviewOptions": {
+      "plugins": true,
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
